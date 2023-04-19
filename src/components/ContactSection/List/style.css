@@ -1,0 +1,33 @@
+.pagesContainer {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  width: 26%;
+}
+.pagesContainer h5 {
+  font-family: brandFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5625rem;
+  line-height: 125%;
+  /* or 31px */
+
+  /* display: flex;
+  align-items: center; */
+
+  color: #292f36;
+}
+.pagesContainer p {
+  font-family: navbarFont;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.375rem;
+  line-height: 300%;
+  /* or 66px */
+
+  /* display: flex; */
+  letter-spacing: 0.01em;
+
+  color: #4d5053;
+  cursor: pointer;
+}

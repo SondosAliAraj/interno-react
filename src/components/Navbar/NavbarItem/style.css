@@ -1,0 +1,24 @@
+@font-face {
+  font-family: brandFont;
+  src: url(../../../../public/webfont/dmserifdisplay-regular-webfont.woff);
+}
+@font-face {
+  font-family: navbarFont;
+  src: url(../../../../public/webfont/jost-variablefont_wght-webfont.woff);
+}
+.itemsText a {
+  font-family: navbarFont;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.navbarItem:hover {
+  color: #cda274 !important;
+}
+@media only screen and (max-width: 768px) {
+  .serachIconForSmallScreen {
+    padding-left: 0% !important;
+  }
+}
